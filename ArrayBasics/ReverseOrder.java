@@ -26,8 +26,11 @@ public class ReverseOrder
       
       System.out.println("The numbers in reverse order:");
 
-      for (int index = numbers.length-1; index >= 0; index--)
+      for (int index = numbers.length-1; index >= 0; index--) {
          System.out.print(numbers[index] + "  ");
+      }
+      
+      System.out.println();
       
       scan.close();
    }

@@ -46,7 +46,7 @@ public class ArrayBasics {
 		
 		//as before, we can use a for-each loop to
 		// see the values in the array
-		System.out.println("Displaying an int[] with a for-each loop:");
+		// System.out.println("Displaying an int[] with a for-each loop:");
 		for (int i : anArray) {
 			System.out.println(i);
 		}
@@ -54,7 +54,7 @@ public class ArrayBasics {
 		
 		//or, we can use a for loop and get the
 		// values by index
-		System.out.println("Displaying an int[] with a for loop:");
+		// System.out.println("Displaying an int[] with a for loop:");
 		for (int i = 0; i < anArray.length; i++) {
 			System.out.println(anArray[i]);
 		}
