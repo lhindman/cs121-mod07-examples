@@ -1,8 +1,8 @@
 {
 	"folders": [
 		{
-			"path": "MyApp"
-		},
+			"path": "ArrayBasics"
+		}
 	],
 	"settings": {
 		"files.exclude": {
