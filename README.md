@@ -11,19 +11,23 @@ Steps to Clone Examples
 5. When prompted, Open the repository then Open the workspace
 
 ## Arrays of Objects Experimentation 
-1. Open *Account.java* and *Transactions.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
-    - Visibility modifiers support the principle of encapsulation by restricting access to instance variables. Chance the visibility of the balance instance variable in the Account class from private to public. Then update Transactions.java with the code below to modify the account balance, bypassing the deposit() method entirely. Would this update to the account balance have been possible using the deposit() accessor method?  Record your observations.
+1. Open *Grade.java* and *GradeRange.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
+    - This example code has been modified to better demonstrate the power of Arrays of Objects. An initializer list is used to populate the grades[] with objects. when you run the program note the order that that the grade objects are displayed in the console.  Record your observations.
+    - Review the code for the Grade class. Notice that it implements the Comparable<Grade> interfaces, which means it provides a compareTo() method designed to compare two Grade objects. When we have an array of Comparable objects, we can use the static methods provided in the Collection class to sort our array. Append the following code to the end of the main() method in GradeRange. You will need to import java.util.Arrays. What is the result and why?
     ```
-      double balance = acct2.deposit(75.25);
-      System.out.println("Mary's balance after deposit: " + balance);
-      System.out.println("Mary's balance after withdrawal: " + acct2.withdraw(480, 1.50));
-      
-      acct2.balance = -1000000;
-      System.out.println("Mary's balance after account hack: " acct2.getBalance());
-      
+        Arrays.sort(grades);
+	
+        System.out.print("\n*\n* Sorted in ascending order\n*\n");
+        for (Grade letterGrade : grades)
+           System.out.println(letterGrade);
     ```
- 
-    - With the above modifications still in place, change the visibility of the balance instance variable back to private and run the program again.  What is the result and why?
+    - Modify the compareTo() method in Grade.java as shown below.  What is the result and why?
+    ```
+        public int compareTo(Grade arg0) {
+            return  arg0.lowerBound - this.lowerBound;
+        }
+    ```
+	
 
 ## Arrays and Methods Experimentation
 In the deeper look videos, we discussed that when a class *implements* an interface they are guaranteeing that objects created from that class provide certain methods. Java check for this at compile time, but also provides the ***instanceof*** operator so that we can also check at runtime. Let's have some fun. :)
