@@ -2,7 +2,7 @@
  * Represents a school grade.
  * @author Java Foundations
  */
-public class Grade
+public class Grade implements Comparable<Grade>
 {
    private String name;
    private int lowerBound;
@@ -61,5 +61,19 @@ public class Grade
    public int getLowerBound()
    {
       return lowerBound;
+   }
+
+   @Override
+   /** Compare this grade object to the grade object that is passed in as arg0.
+    *  Return a positive number (> 0) if this grade threshold is higher than the one passed in.
+    *  Return a negative number (< 0) if this grade threshold is lower than the one passed in.
+    *  Retun a zero if the grade threshold is the same between the two objects
+    *
+    * @param arg0 Reference to Grade object to compare this object to
+    *
+    * @return Result of comparison between the two objects
+    */
+   public int compareTo(Grade arg0) {
+      return this.lowerBound - arg0.lowerBound;
    }
 }

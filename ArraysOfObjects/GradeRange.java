@@ -12,11 +12,9 @@ public class GradeRange
    {
       Grade[] grades =
       {
-         new Grade("A", 95), new Grade("A-", 90),
-         new Grade("B+", 87), new Grade("B", 85), new Grade("B-", 80),
-         new Grade("C+", 77), new Grade("C", 75), new Grade("C-", 70),
-         new Grade("D+", 67), new Grade("D", 65), new Grade("D-", 60),
-         new Grade("F", 0)
+         new Grade ("A+", 97), new Grade("B+", 87), new Grade("C+", 77), new Grade("D+", 67),
+         new Grade("A", 94), new Grade("B", 84), new Grade("C", 74), new Grade("D", 64), new Grade("F", 0),
+         new Grade("A-", 90), new Grade("B-", 80), new Grade("C-", 70), new Grade("D-", 60)
       };
 
       for (Grade letterGrade : grades)
