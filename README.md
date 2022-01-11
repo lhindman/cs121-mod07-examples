@@ -51,14 +51,14 @@ The command line provides a convient way for the end user to supply information 
     ```
     java CommandLineEcho Hello World
     ```
-1. **Using the VSCode:** Click the Run and Debug icon on the left of the VSCode screen. Then click *create a launch.json file* and select the CommandLineArguments workspace folder. This displays a customized launch.json in the editor window, populated with Launch entries for both CommandLineEcho and CommandLineValidation. Modify the Launch entry for CommandLineEcho by adding an args entry as shown below. Save the changes and close the launch.json file. Then execute CommandLineEcho by clicking the run link above the main() method. 
+1. **Using the VSCode:** Click the Run and Debug icon on the left of the VSCode screen. Then click *create a launch.json file* and select the CommandLineArguments workspace folder. This displays a customized launch.json in the editor window, populated with Launch entries for both CommandLineEcho and CommandLineValidation. Modify the Launch entry for CommandLineEcho by adding an args entry as shown below. Save the changes and close the launch.json file. Then execute CommandLineEcho by clicking the run link above the main() method. Which of the two ways of running programins with command line arguments do you prefer?
     ```
     {
         "type": "java",
         "name": "Launch CommandLineEcho",
         "request": "launch",
         "mainClass": "CommandLineEcho",
-	"args": ["hello", "world"],
+        "args": ["hello", "world"],
         "projectName": "CommandLineArguments_e0f2b6bd"
     },
     ````
