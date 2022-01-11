@@ -6,9 +6,9 @@ To get started on this activity, please clone this repository into your developm
 Steps to Clone Examples
 1. Copy the URL for this repo by clicking the green "Code" button above, select HTTPS then click the copy icon.
 2. Open VSCode, click the Source Control icon then click Clone Repository.
-3. Paste the repo URL into the "Provide repository URL" field and press Enter.
+3. Pasted the repo URL into the "Provide repository URL" field and press Enter
 4. Browse to the location in your development environment where you want to store the repostory and click Select Repository Location.
-5. When prompted, Open the repository then Open the workspace.
+5. When prompted, Open the repository then Open the workspace
 
 ## Arrays of Objects Experimentation 
 1. Open *Grade.java* and *GradeRange.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
@@ -41,18 +41,18 @@ In the deeper look videos, we discussed how in Java, Arrays are treated like obj
 	System.out.println("The reference value passed to changeArray is: " + a);
    ```
 ## Command Line Experimentation
-1. Open *Die.java*, *CupOfDice.java* and *CupOfDiceDriver.java* read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
-    - Modify the faceValue instance variable in the Die class as shown below, making it static. Run the CupOfDiceDriver again and record the results.
+The command line provides a convient way for the end user to supply information to a program without the need to user a scanner and read the content from System.in.  However, developing a program that takes command line input in an IDE, such as VSCode, isn't nearly as convenient.  In the steps below you will experiement with two different ways of passing command line arguments to a program: using the terminal and using a custom run config in VSCode.
+1. **Using the Terimal:** From the *EXPLORER* view in VSCode, right click on the *CommandLineArguments* folder and select **Open in Integrated Terminal.** 
+    - In the terminal, build the CommandLineEcho program using the following command
     ```
-    private static int faceValue;
+    javac CommandLineEcho.java 
     ```
-    - When an instance variable has the static modifier specified as we did above, the variable becomes a class variable instead of an instance variable. An instance variable has memory allocated with each object (instance of the class) to hold the data.  However, a class variable has memory allocated within the class itself and this memory shared, in essence becoming a single variable that is shared between all instances of the class. Think about how changing the faceValue to static changed its behavior and record whether this makes sense given your understanding of instance variables vs class variables.
+    - In the terminal, run the CommandLineEcho program passing Hello World as command line argument as follows:
+    ```
+    java CommandLineEcho Hello World
+    ```
+1. **Using the VSCode:** Click the Run and Debug icon on the left of the VSCode screen. Then click *create a launch.json file* and select the CommandLineEcho workspace folder.
 
-    - After changing faceValue from an instance variable to a class variable, you likely noticed a number of warning messages similar to the following:
-    ```
-    The static field Die.faceValue should be accessed in a static way
-    ```
-    This is a result of using the *this* operator to access faceValue.  The *this* operator means, THIS instance and since it is no longer an instance variable, it is no longer appropriate to access faceValue using the *this* operator.  Instead, replace all occurrances of **this.faceValue** with **Die.faceValue** and run the program again. Did this resolve the compilation warnings?
 
 
 ## Two Dimensional Array Experimentation
