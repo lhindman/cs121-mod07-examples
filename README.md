@@ -63,3 +63,59 @@ The command line provides a convient way for the end user to supply information 
     },
     ````
 
+## Data Visualizer Experimentation
+Two dimensional arrays provide an incredibly effective means of representing simulation data. This could be something as simple as a game board so something as complex geographical topography or as elegant as a fractal.  Regardless of how the what the data represents, the numbers by themselves are not very convient to look at. To that end, it is common to create a color palette  and use that palette to visualize the data in a graphical form. To that end I created the DataVisualizerDemo which implements the HindmanVisualizer interface to display two dimensional data graphically.
+1. Open the files in the DataVisualizerDemo folder, paying particular attention to *DataVisualizerDemo.java* and *HindmanVisualizer.java*. Read the code and run it to ensure it functions properly. Then work through each of the experiments below and record your observations.
+    - Add the following private helper method to *DataVisualizationDemo.java*, then call this method from the Constructor, replacing the call to generateVerticalLines(). Pay particular attention to the minor changes we made between the two methods to generate the horizontal lines vs the vertical lines. Record the changes that were requrired.
+    ```
+    private void generateHorizontalLines() {
+        int numRows = DISPLAY_HEIGHT;
+        int numCols = DISPLAY_WIDTH;
+
+        for (int row = 0; row < numRows; row++) {
+            for (int col = 0; col < numCols; col++) {
+                if (row % 8 == 1) {
+                    simData[row - 1][col] = MAX_VALUE/2;
+                    simData[row][col] = MAX_VALUE;
+                    simData[row + 1][col] = MAX_VALUE/2;
+                }
+            }
+        }
+    }
+    ```
+    - Modify the generateHorizontalLines() method as shown below to set a random value instead of MAX_VALUE to each pixel on the horizontal lines. Run the program and record your observations.
+    ```
+    private void generateHorizontalLines() {
+        int numRows = DISPLAY_HEIGHT;
+        int numCols = DISPLAY_WIDTH;
+
+	Random numberGenerator = new Random();
+	
+        for (int row = 0; row < numRows; row++) {
+            for (int col = 0; col < numCols; col++) {
+                if (row % 8 == 1) {
+                    simData[row - 1][col] = numberGenerator.nextInt(MAX_VALUE)/2;
+                    simData[row][col] = numberGenerator.nextInt(MAX_VALUE);
+                    simData[row + 1][col] = numberGenerator.nextInt(MAX_VALUE)/2;
+                }
+            }
+        }
+    }
+    ```
+   - Modify the getColorPalette() method using the code below to return an array of random Color objects instead of simply returning null.  Run the program a few times and record your observations.
+   ```
+   public Color[] getColorPalette() {
+        Color[] palette = new Color[MAX_VALUE];
+        Random numberGenerator = new Random();
+
+        for (int x = 0; x < palette.length; x++) {
+            int red = numberGenerator.nextInt(256);
+            int green = numberGenerator.nextInt(256);
+            int blue = numberGenerator.nextInt(256);
+            palette[x] = new Color(red,green,blue );
+        }
+
+        return palette;
+    }
+   ```
+  
