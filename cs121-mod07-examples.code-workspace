@@ -17,6 +17,9 @@
 		},
 		{
 			"path": "TwoDimensionalArrays"
+		},
+		{
+			"path": "DataVisualizerDemo"
 		}
 	],
 	"settings": {
