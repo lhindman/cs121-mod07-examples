@@ -1,0 +1,277 @@
+name,distance,constellation,infected
+Proxima Centauri,4.24,Centaurus,false
+Alpha Centauri A,4.37,Centaurus,false
+Alpha Centauri B,4.37,Centaurus,false
+Barnard's Star,5.96,Ophiuchus,false
+Wolf 359,7.78,Leo,false
+Lalande 21185,8.29,Ursa Major,false
+Sirius A,8.58,Canis Major,false
+Sirius B,8.58,Canis Major,false
+Luyten 726-8 A,8.73,Cetus,false
+Luyten 726-8 B,8.73,Cetus,false
+Ross 154,9.68,Sagittarius,false
+Ross 248,10.32,Andromeda,false
+Epsilon Eridani,10.52,Eridanus,true
+Lacaille 9352,10.74,Piscis Austrinus,false
+Ross 128,10.94,Virgo,false
+EZ Aquarii A,11.27,Aquarius,false
+EZ Aquarii B,11.27,Aquarius,false
+EZ Aquarii C,11.27,Aquarius,false
+61 Cygni A,11.40,Cygnus,false
+61 Cygni B,11.40,Cygnus,false
+Procyon A,11.46,Canis Minor,false
+Procyon B,11.46,Canis Minor,false
+Struve 2398 A,11.64,Draco,false
+Struve 2398 B,11.64,Draco,false
+Groombridge 34 A,11.73,Andromeda,false
+Groombridge 34 B,11.73,Andromeda,false
+Epsilon Indi A,11.82,Indus,true
+DX Cancri,11.83,Cancer,false
+Tau Ceti,11.91,Cetus,true
+GJ 1061,11.99,Horologium,false
+YZ Ceti,12.13,Cetus,false
+Luyten's Star,12.39,Canis Minor,false
+Teegarden's Star,12.43,Aries,false
+SCR 1845-6357,12.57,Apus,false
+Kapteyn's Star,12.76,Pictor,false
+Lacaille 8760,12.87,Microscopium,false
+Kruger 60 A,13.15,Cepheus,false
+Kruger 60 B,13.15,Cepheus,false
+Ross 614 A,13.35,Monoceros,false
+Ross 614 B,13.35,Monoceros,false
+Wolf 1061,13.82,Ophiuchus,false
+Van Maanen's Star,14.07,Pisces,false
+Gliese 1,14.23,Sculptor,false
+Wolf 424 A,14.31,Virgo,false
+Wolf 424 B,14.31,Virgo,false
+TZ Arietis,14.55,Aries,false
+Gliese 687,14.84,Draco,false
+LHS 292,14.89,Sextans,false
+Gliese 674,14.96,Ara,false
+GJ 1245 A,14.99,Cygnus,false
+GJ 1245 B,14.99,Cygnus,false
+GJ 1245 C,14.99,Cygnus,false
+LHS 1723,15.14,Eridanus,false
+Gliese 876,15.34,Aquarius,true
+Gliese 412 A,15.83,Ursa Major,false
+Gliese 412 B,15.83,Ursa Major,false
+Gliese 832,16.08,Grus,false
+40 Eridani A,16.45,Eridanus,true
+40 Eridani B,16.45,Eridanus,false
+40 Eridani C,16.45,Eridanus,false
+Altair,16.73,Aquila,false
+Gliese 682,16.34,Scorpius,false
+GJ 1002,15.71,Cetus,false
+Gliese 317,49.90,Hydra,false
+Gliese 667 A,23.62,Scorpius,true
+Gliese 667 B,23.62,Scorpius,false
+Gliese 667 C,23.62,Scorpius,false
+HR 1614,57.80,Eridanus,false
+Gliese 581,20.22,Libra,true
+Gliese 436,32.00,Leo,false
+LHS 1140,41.00,Cetus,false
+Gliese 163,49.00,Dorado,false
+Gliese 504,57.30,Virgo,false
+70 Ophiuchi A,16.59,Ophiuchus,false
+70 Ophiuchi B,16.59,Ophiuchus,false
+36 Ophiuchi A,19.48,Ophiuchus,false
+36 Ophiuchi B,19.48,Ophiuchus,false
+HR 7703,18.57,Microscopium,false
+Delta Pavonis,19.92,Pavo,true
+82 Eridani,19.71,Eridanus,false
+Beta Hydri,24.33,Hydrus,false
+107 Piscium,24.63,Pisces,false
+Mu Herculis,27.11,Hercules,false
+Xi Bootis A,21.98,Bootes,false
+Xi Bootis B,21.98,Bootes,false
+Sigma Draconis,18.79,Draco,false
+HR 511,26.55,Andromeda,false
+Omicron2 Eridani,16.45,Eridanus,false
+Alpha Mensae,33.13,Mensa,false
+Eta Cassiopeiae A,19.42,Cassiopeia,false
+Eta Cassiopeiae B,19.42,Cassiopeia,false
+Pi3 Orionis,26.32,Orion,false
+Zeta Tucanae,28.01,Tucana,false
+Chi1 Orionis,28.32,Orion,false
+Beta Comae Berenices,29.80,Coma Berenices,false
+61 Virginis,27.84,Virgo,false
+HR 4523,28.07,Centaurus,false
+18 Scorpii,45.71,Scorpius,false
+HR 6060,51.17,Ara,false
+Kappa1 Ceti,29.77,Cetus,false
+Beta Canum Venaticorum,27.36,Canes Venatici,false
+HD 102365,29.70,Centaurus,false
+Psi Serpentis,48.93,Serpens,false
+Gliese 86,35.40,Eridanus,false
+Arcturus,36.66,Bootes,false
+Alpha Coronae Borealis,75.05,Corona Borealis,false
+Vega,25.04,Lyra,false
+Fomalhaut,25.13,Piscis Austrinus,false
+Castor A,51.50,Gemini,false
+Castor B,51.50,Gemini,false
+Pollux,33.78,Gemini,false
+Capella A,42.92,Auriga,false
+Capella B,42.92,Auriga,false
+Aldebaran,65.30,Taurus,false
+Spica,250.00,Virgo,false
+Antares,550.00,Scorpius,false
+Betelgeuse,700.00,Orion,false
+Rigel,860.00,Orion,false
+Deneb,2615.00,Cygnus,false
+Sirius A (control),8.58,Canis Major,false
+Regulus,79.30,Leo,false
+Bellatrix,243.00,Orion,false
+Algol A,92.80,Perseus,false
+Algol B,92.80,Perseus,false
+Mirfak,592.00,Perseus,false
+Achernar,139.00,Eridanus,false
+Canopus,310.00,Carina,false
+Acrux A,321.00,Crux,false
+Acrux B,321.00,Crux,false
+Mimosa,280.00,Crux,false
+Hadar A,390.00,Centaurus,false
+Hadar B,390.00,Centaurus,false
+Gacrux,88.00,Crux,false
+Toliman,4.37,Centaurus,false
+Mimosa B,280.00,Crux,false
+Alnair,101.00,Grus,false
+Peacock,183.00,Pavo,false
+Atria,391.00,Triangulum Australe,false
+Avior,632.00,Carina,false
+Menkent,61.00,Centaurus,false
+Gliese 3021,57.60,Horologium,false
+HD 40307,41.80,Pictor,false
+HD 85512,36.60,Vela,false
+HD 216520,68.21,Aquarius,false
+HD 20794,19.69,Eridanus,true
+HD 192310,28.89,Microscopium,false
+HD 1461,76.77,Cetus,false
+HD 7924,54.10,Cassiopeia,false
+HD 69830,40.57,Puppis,false
+HD 10180,127.00,Hydrus,false
+HD 215152,68.21,Aquarius,false
+HD 147513,42.08,Scorpius,false
+HD 179949,88.00,Sagittarius,false
+Epsilon Aurigae,2000.00,Auriga,false
+Theta Orionis C,1344.00,Orion,false
+Eta Carinae,7500.00,Carina,false
+Mu Cephei,6000.00,Cepheus,false
+VY Canis Majoris,3900.00,Canis Major,false
+Mira,418.00,Cetus,false
+Chi Cygni,550.00,Cygnus,false
+R Leporis,1350.00,Lepus,false
+T Cephei,685.00,Cepheus,false
+SS Cygni,370.00,Cygnus,false
+U Geminorum,336.00,Gemini,false
+Algol A (reference),92.80,Perseus,false
+Gliese 849,29.40,Aquarius,false
+Gliese 777,51.80,Cygnus,false
+Gliese 179,38.80,Orion,false
+Gliese 328,67.80,Monoceros,false
+Gliese 370,37.50,Leo,false
+Gliese 433,29.80,Hydra,false
+Gliese 466,53.60,Ursa Major,false
+Gliese 514,25.30,Virgo,false
+Gliese 526,17.80,Canes Venatici,false
+Gliese 536,33.50,Serpens,false
+Gliese 618 A,27.80,Lupus,false
+Gliese 628,14.10,Ophiuchus,false
+Gliese 649,34.10,Hercules,false
+Gliese 661 A,20.30,Cassiopeia,false
+Gliese 680,33.60,Sagittarius,false
+Gliese 693,19.80,Pavo,false
+Gliese 710,62.80,Serpens,false
+Gliese 740,23.30,Sagittarius,false
+Gliese 752 A,19.10,Aquila,false
+Gliese 784,15.90,Microscopium,false
+Gliese 809,19.00,Cepheus,false
+Gliese 820 A,11.40,Cygnus,false
+Gliese 829,19.00,Aquarius,false
+Gliese 845 A,11.82,Indus,false
+Gliese 860 A,13.15,Cepheus,false
+Gliese 880,22.50,Andromeda,false
+Gliese 887,10.74,Piscis Austrinus,false
+Gliese 896 A,20.00,Andromeda,false
+Gliese 908,21.90,Cetus,false
+LHS 3003,14.90,Virgo,false
+LHS 3376,16.80,Ophiuchus,false
+LHS 3799,17.50,Sagittarius,false
+LP 944-20,16.20,Fornax,false
+GJ 3379,17.50,Orion,false
+GJ 3470,97.00,Cancer,false
+GJ 3512,30.00,Ursa Major,false
+GJ 3779,17.00,Leo,false
+GJ 4063,17.60,Aquila,false
+GJ 4281,15.60,Aquarius,false
+GJ 4302,14.30,Pegasus,false
+GJ 4370,15.40,Andromeda,false
+2MASS J0415,46.00,Eridanus,false
+2MASS J1835,18.00,Lyra,false
+WISE 1049-5319 A,6.52,Vela,false
+WISE 1049-5319 B,6.52,Vela,false
+WISE 0855-0714,7.27,Hydra,false
+WISE 1741+2553,18.80,Hercules,false
+WISE 0350-5658,11.10,Caelum,false
+WISE 0410+1502,22.40,Taurus,false
+WISE 0535-7500,17.90,Pictor,false
+WISE 0713-2917,19.50,Puppis,false
+WISE 0825+2805,30.00,Cancer,false
+WISE 1217+1626,26.20,Virgo,false
+WISE 1506+7027,11.90,Ursa Minor,false
+WISE 1647+5632,26.50,Hercules,false
+WISE 1738+2732,19.90,Hercules,false
+WISE 2056+1459,24.00,Aquarius,false
+WISE 2357+1227,29.00,Pisces,false
+WISEA J065609,50.00,Gemini,false
+HD 33793,12.76,Pictor,false
+HD 42581,11.91,Lepus,false
+HD 95735,8.29,Ursa Major,false
+HD 119850,19.00,Canes Venatici,false
+HD 131156 A,21.98,Bootes,false
+HD 131156 B,21.98,Bootes,false
+HD 149661,27.90,Corona Australis,false
+HD 155876,30.20,Ara,false
+HD 166620,34.20,Hercules,false
+HD 173740,11.73,Andromeda,false
+HD 191408,19.97,Aquila,false
+HD 196795,17.50,Cygnus,false
+HD 201091,11.40,Cygnus,false
+HD 201092,11.40,Cygnus,false
+HD 209100,11.82,Indus,false
+HD 217987,10.74,Piscis Austrinus,false
+HD 225213,13.15,Cepheus,false
+Denebola,36.20,Leo,false
+Alioth,81.00,Ursa Major,false
+Dubhe,123.00,Ursa Major,false
+Merak,79.40,Ursa Major,false
+Phecda,83.20,Ursa Major,false
+Megrez,58.40,Ursa Major,false
+Mizar A,78.00,Ursa Major,false
+Mizar B,78.00,Ursa Major,false
+Alcor,81.70,Ursa Major,false
+Alkaid,101.00,Ursa Major,false
+Alphecca,75.00,Corona Borealis,false
+Izar,203.00,Bootes,false
+Muphrid,37.00,Bootes,false
+Nekkar,219.00,Bootes,false
+Seginus,85.00,Bootes,false
+Thuban,303.00,Draco,false
+Eltanin,148.00,Draco,false
+Rastaban,380.00,Draco,false
+Grumium,112.00,Draco,false
+Aldhibah,330.00,Draco,false
+Alwaid,362.00,Draco,false
+Nodus Secundus,101.00,Draco,false
+Edasich,101.00,Draco,false
+Gianfar,340.00,Draco,false
+Kuma A,98.00,Draco,false
+Kuma B,98.00,Draco,false
+Deneb Algedi,38.70,Capricornus,false
+Dabih A,344.00,Capricornus,false
+Algedi,109.00,Capricornus,false
+Nashira,140.00,Capricornus,false
+Sadalsuud,610.00,Aquarius,false
+Sadalmelik,520.00,Aquarius,false
+Skat,160.00,Aquarius,false
+Albali,208.00,Aquarius,false
+Sadachbia,163.00,Aquarius,false
